@@ -32,6 +32,6 @@ def datosEnergy() :
   pd.DataFrame(datos)['energy'].plot(kind='hist')
   plt.show()
 
-#top10()
-#datosLiked()
+top10()
+datosLiked()
 datosEnergy()
